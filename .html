@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit Chain Polska - Wizytówka Firmy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+            scroll-behavior: smooth; /* Płynne przewijanie */
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #0056b3;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s; /* Efekt przejścia dla linków */
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: #ffcc00; /* Zmiana koloru na hover */
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            display: none; /* Ukryj sekcje */
+            animation: fadeIn 0.5s; /* Animacja przejścia */
+        }
+        h1, h2 {
+            color: #007BFF;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .large-text {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #007BFF;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .image-background {
+            background-image: url('background.jpg'); /* Zmień na adres URL swojego tła */
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            margin: 20px 0;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Logo Profit Chain Polska" class="logo"> <!-- Zmień na adres URL swojego logo -->
+    <h1>Profit Chain Polska</h1>
+    <p>Twój partner w handlu internetowym i zarabianiu na prowizjach</p>
+</header>
+
+<nav>
+    <a href="#about" onclick="showSection('about')">O Nas</a>
+    <a href="#services" onclick="showSection('services')">Nasze Usługi</a>
+    <a href="#sales" onclick="showSection('sales')">Sprzedaż</a>
+    <a href="#contact" onclick="showSection('contact')">Kontakt</a>
+</nav>
+
+<section id="about">
+    <h2>O Nas</h2>
+    <p class="large-text">
+        Profit Chain Polska to firma, która powstała z pasji do handlu internetowego. Zdajemy sobie sprawę, że w dzisiejszych czasach 
+        kluczowe jest dotarcie do odpowiednich klientów i skuteczne sprzedawanie produktów w Internecie. Nasz zespół ekspertów 
+        nieustannie poszukuje najnowszych trendów i produktów, aby zapewnić naszym klientom dostęp do najlepszych ofert na rynku. 
+        Działamy na wielu platformach sprzedażowych, takich jak Facebook, Allegro, OLX, Amazon i eBay, co pozwala nam dotrzeć 
+        do szerokiego grona odbiorców.
+    </p>
+    <p class="large-text">
+        Dzięki naszym innowacyjnym strategiom sprzedażowym, jesteśmy w stanie pomóc naszym klientom w zwiększeniu ich dochodów 
+        oraz zbudowaniu stabilnej bazy klientów. Naszym priorytetem jest zadowolenie klienta, dlatego oferujemy pełne wsparcie 
+        oraz doradztwo na każdym etapie współpracy.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Nasze Usługi</h2>
+    <p class="large-text">
+        W Profit Chain Polska specjalizujemy się w sprzedaży różnorodnych produktów na wielu platformach internetowych. 
+        Nasze usługi obejmują:
+        <ul>
+            <li><strong>Sprzedaż na Facebooku:</strong> Tworzymy atrakcyjne kampanie reklamowe, które przyciągają klientów 
+                do naszych ofert.</li>
+            <li><strong>Handel na Allegro i OLX:</strong> Efektywnie zarządzamy ogłoszeniami oraz analizujemy rynek, aby 
+                maksymalizować sprzedaż lokalną.</li>
+            <li><strong>Międzynarodowa sprzedaż na Amazon i eBay:</strong> Rozszerzamy zasięg naszych klientów na rynki 
+                zagraniczne, oferując im dostęp do globalnych klientów.</li>
+        </ul>
+        <p>
+            Nasi klienci mają również możliwość korzystania z naszych usług doradczych, które pomagają w wyborze najlepszych 
+            strategii sprzedażowych oraz efektywnego zarządzania ich ofertami. Działamy na rzecz sukcesu naszych klientów, 
+            oferując im kompleksowe wsparcie na każdym etapie współpracy.
+        </p>
+    </p>
+</section>
+
+<section id="sales">
+    <h2>Struktura Sprzedaży</h2>
+    <p class="large-text">
+        Nasza struktura sprzedaży opiera się na różnorodnych metodach, które pozwalają na maksymalne wykorzystanie 
+        dostępnych możliwości na rynku. Współpracujemy z wieloma markami i dostawcami, co umożliwia nam oferowanie 
+        produktów w atrakcyjnych cenach. Nasze podejście do sprzedaży oparte jest na zaufaniu i transparentności, co 
+        pozwala budować długotrwałe relacje z naszymi klientami.
+    </p>
+    <p class="large-text">
+        Dzięki efektywnym strategiom marketingowym i analizy rynku, jesteśmy w stanie dostarczać naszym klientom najnowsze 
+        i najciekawsze przedmioty. Współpracujemy z naszymi partnerami, aby dostarczyć im innowacyjne rozwiązania, które 
+        pomogą im w rozwoju ich działalności.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Kontakt</h2>
+    <p class="large-text">
+        Jesteśmy otwarci na współpracę i chętnie odpowiemy na wszelkie pytania. 
+        Jeśli chcesz dowiedzieć się więcej o naszych usługach, skontaktuj się z nami:
+        <div class="contact">
+            <p><strong>Adres:</strong> Katowice, 40-092, Aleja Korfantego 2/15</p>
+            <p><strong>Email:</strong> <a href="mailto:Profit.chainpolska@gmail.com">Profit.chainpolska@gmail.com</a></p>
+        </div>
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Profit Chain Polska | Wszelkie prawa zastrzeżone</p>
+</footer>
+
+<script>
+    function showSection(sectionId) {
+        const sections = document.querySelectorAll('section');
+        sections.forEach(section => {
+            section.style.display = 'none'; // Ukryj wszystkie sekcje
+        });
+        document.getElementById(sectionId).style.display = 'block'; // Pokaż wybraną sekcję
+    }
+
+    // Wyświetl sekcję O Nas jako domyślną
+    showSection('about');
+</script>
+
+</body>
+</html>
